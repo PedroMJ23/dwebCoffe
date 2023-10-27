@@ -1,0 +1,209 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    list-style: none;
+    list-style-type: none;
+    text-decoration: none;
+    background-color: #131415;
+    color: white;
+    font-size: 20px;
+    scroll-behavior: smooth;
+}
+
+
+
+.logo-nav {
+    height: 70px;
+    width: 70px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    background-color: #43484d;
+
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #43484d;
+    margin-right: 150px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+nav ul li {
+    background-color: #43484d;
+    margin: 0 15px 0 15px;
+    padding: 3px;
+    border-radius: 5px;
+
+}
+
+nav ul li:first-child {
+    border-bottom: solid white 1px;
+}
+
+nav ul li:hover {
+    background-color: #6dd58a;
+    color: black;
+
+}
+nav ul li a{
+    background-color: #43484d;
+}
+nav ul li a:hover{
+    background-color: #6dd58a;
+    color: black;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.img-hero {
+    height: 330px;
+    width: 300px;
+}
+
+.hero-text {
+    margin-top: 100px;
+}
+
+#hero-p {
+    height: 330px;
+    width: 700px;
+}
+
+.categorias ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.categorias ul li {
+    margin: 0 25px 0 25px;
+    border-radius: 5px;
+    border: solid white 1px;
+    padding: 8px;
+}
+
+.categorias ul li:hover {
+    background-color: #6dd58a;
+    color: black;
+    border: rgb(215, 25, 25) solid 1px;
+}
+
+.productos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.producto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 15px;
+    border: solid 1px white;
+    border-radius: 1rem;
+
+    margin: 10px 20px;
+
+}
+
+.card-img {
+    height: 250px;
+    width: 250px;
+    border-radius: 1rem;
+    padding: 5px;
+
+}
+
+.descripcion {
+    display: flex;
+}
+
+.desc-text {
+    padding: 10px;
+
+
+}
+
+.contacto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+    background-color: beige;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+    background-color: beige;
+
+}
+
+.form-p {
+    background-color: beige;
+    color: black;
+}
+
+.textarea {
+    height: 120px;
+    width: 350px;
+    background-color: beige;
+    color: black;
+    text-align: start;
+    text-wrap: wrap;
+    resize: none;
+}
+
+#input-email {
+    background-color: beige;
+    color: black;
+}
+.form-btn{
+    background-color: beige;
+    color: black;
+    margin: 10px;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    background-color: #43484d;
+}
+
+.footer-text {
+    display: flex;
+    background-color: #43484d;
+}
+
+.corazon {
+    height: 25px;
+    width: 25px;
+    background-color: #43484d;
+    margin: 0 5px 0 5px;
+}
