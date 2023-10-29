@@ -84,21 +84,21 @@ nav ul li a:hover{
     width: 700px;
 }
 
-.categorias ul {
+.categorias{
     display: flex;
     align-items: center;
     justify-content: center;
 
 }
 
-.categorias ul li {
+.btn-categoria{
     margin: 0 25px 0 25px;
     border-radius: 5px;
     border: solid white 1px;
     padding: 8px;
 }
 
-.categorias ul li:hover {
+.btn-categoria:hover {
     background-color: #6dd58a;
     color: black;
     border: rgb(215, 25, 25) solid 1px;
