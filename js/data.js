@@ -1,4 +1,4 @@
-const cafes = [
+const prods = [
     {
         nombre: 'Café Espresso',
         precio: 2.5,
@@ -90,5 +90,5 @@ const cafes = [
 ];
 
 // Puedes acceder a la información de cada café así:
-console.log(cafes[0].nombre); // Imprime: Café Espresso
-console.log(cafes[1].precio); // Imprime: 3.5
+//console.log(cafes[0].nombre); // Imprime: Café Espresso
+//console.log(cafes[1].precio); // Imprime: 3.5
